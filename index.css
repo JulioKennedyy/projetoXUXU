@@ -8,6 +8,7 @@ body {
 
 .inicio {
     color: black;
+    position: absolute;
 }
 
 .fundo1 {
@@ -19,7 +20,7 @@ body {
     align-items: center;
     background-color: beige;
     width: 15rem;
-    height: 3rem;
+    height: 6rem;
     padding: 2rem;
 }
 
@@ -27,5 +28,14 @@ body {
     font-family: "Dancing Script", serif;
     position: absolute;
     display: flex;
-    margin-bottom: -3rem;
+    margin-bottom: -2rem;
+    font-size: 2rem;
+}
+
+.buquee {
+    margin-top: 7rem;
+    margin-left: 20rem;
+    width: 10rem;
+    background: transparent;
+    transform: rotate(60deg);
 }
