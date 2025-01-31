@@ -1,0 +1,23 @@
+* {
+    
+}
+
+body {
+    background-color: rgb(101, 13, 13);
+}
+
+.inicio {
+    color: black;
+}
+
+.fundo1 {
+    margin-top: 5rem;
+    margin-left: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 15rem;
+    height: 3rem;
+    padding: 2rem;
+}
