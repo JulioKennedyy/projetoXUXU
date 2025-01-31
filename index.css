@@ -1,5 +1,5 @@
 * {
-    
+    font-family: 'DM Sans', sans-serif;
 }
 
 body {
@@ -14,10 +14,18 @@ body {
     margin-top: 5rem;
     margin-left: 40rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: beige;
     width: 15rem;
     height: 3rem;
     padding: 2rem;
+}
+
+.amo {
+    font-family: "Dancing Script", serif;
+    position: absolute;
+    display: flex;
+    margin-bottom: -3rem;
 }
