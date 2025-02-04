@@ -69,6 +69,11 @@ body {
     padding: 0.1rem;
 }
 
+.separar {
+    display: flex;
+    margin-right: 1rem;
+}
+
 
 .nomemusi {
     color: aliceblue;
@@ -77,16 +82,30 @@ body {
 
 .musica01 {
     border: 0.2rem solid rgb(0, 0, 0);
-    width: 10rem;
-    height: 10rem;
+    width: 11rem;
+    height: 11rem;
 }
 
 .justthe {
-    width: 10rem;
-    height: 10rem;
+    width: 11rem;
+    height: 11rem;
 }
 
 .nome01 {
-    font-size: 1rem;
-    
+    font-size: 1.1rem;
+}
+
+.musica02 {
+    border: 0.2rem solid rgb(0, 0, 0);
+    width: 11rem;
+    height: 11rem;
+}
+
+.musica02 img {
+    width: 11rem;
+    height: 11rem;
+}
+
+.musica01, .musica02 {
+    margin: 0 2rem;
 }
