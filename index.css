@@ -106,6 +106,17 @@ body {
     height: 11rem;
 }
 
-.musica01, .musica02 {
+.musica03 {
+    border: 0.2rem solid rgb(0, 0, 0);
+    width: 11rem;
+    height: 11rem;
+}
+
+.musica03 img {
+    width: 11rem;
+    height: 11rem;
+}
+
+.musica01, .musica02, .musica03 {
     margin: 0 2rem;
 }
