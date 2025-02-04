@@ -24,13 +24,23 @@ body {
     padding: 2rem;
 }
 
-.amo {
+.inicio::after {
+    content: "Xuxu";
+    font-family: "Dancing Script", serif;
+    position: absolute;
+    display: flex;
+    margin-left: 4rem;
+    margin-bottom: -2rem;
+    font-size: 2rem;
+}
+
+/* .amo {
     font-family: "Dancing Script", serif;
     position: absolute;
     display: flex;
     margin-bottom: -2rem;
     font-size: 2rem;
-}
+} */
 
 .buquee {
     margin-top: 7rem;
@@ -44,10 +54,39 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin-top: 10rem;
 }
+
+.musicas a {
+    text-decoration: none;
+}
+
+.musicas p {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem;
+}
+
 
 .nomemusi {
     color: aliceblue;
     font-size: 2rem;
+}
+
+.musica01 {
+    border: 0.2rem solid rgb(0, 0, 0);
+    width: 10rem;
+    height: 10rem;
+}
+
+.justthe {
+    width: 10rem;
+    height: 10rem;
+}
+
+.nome01 {
+    font-size: 1rem;
+    
 }
