@@ -52,98 +52,54 @@ body {
 
 .musicas {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
     margin-top: 10rem;
 }
-
-.musicas a {
-    text-decoration: none;
-}
-
-.musicas p {
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    padding: 0.1rem;
-}
-
-.separar {
-    display: flex;
-    margin-right: 1rem;
-}
-
 
 .nomemusi {
     color: aliceblue;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
-.musica01 {
-    border: 0.2rem solid rgb(0, 0, 0);
-    width: 11rem;
-    height: 11rem;
-}
-
-.justthe {
-    width: 11rem;
-    height: 11rem;
-}
-
-.nome01 {
-    font-size: 1.1rem;
-}
-
-.musica02 {
-    border: 0.2rem solid rgb(0, 0, 0);
-    width: 11rem;
-    height: 11rem;
-}
-
-.musica02 img {
-    width: 11rem;
-    height: 11rem;
-}
-
-.musica03 {
-    border: 0.2rem solid rgb(0, 0, 0);
-    width: 11rem;
-    height: 11rem;
-}
-
-.musica03 img {
-    width: 11rem;
-    height: 11rem;
-}
-
-.musica01, .musica02, .musica03 {
-    margin: 0 2rem;
-    border: 0.2rem solid rgb(0, 0, 0);
-    width: 11rem;
-    height: 11rem;
-}
-
-.musica01, .musica02, .musica03 img {
-    width: 11rem;
-    height: 11rem;
-}
-
-.linha {
+.separar {
     display: flex;
     justify-content: center;
-    gap: 20rem; /* Espaço entre os itens */
-    margin-bottom: 2rem; /* Espaço entre as linhas */
+    gap: 2rem; 
+    margin-bottom: 8rem; 
+}
 
-.musica04 {
-    margin: 0 2rem;
+.musica01, .musica02, .musica03,
+.musica04, .musica05, .musica06 {
     border: 0.2rem solid rgb(0, 0, 0);
     width: 11rem;
     height: 11rem;
-    margin-top: 0.5rem;
+    text-align: center;
 }
-    
-.musica04, .musica05, .musica06 img {
+
+.musica01 img, .musica02 img, .musica03 img,
+.musica04 img, .musica05 img, .musica06 img {
     width: 11rem;
     height: 11rem;
 }
+
+.musica01 img:hover, .musica02 img:hover, .musica03 img:hover,
+.musica04 img:hover, .musica05 img:hover, .musica06 img:hover {
+    width: 12rem;
+    height: 12rem;
+    transition: 1s;
+}
+
+.musicas a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.musicas p {
+    color: aliceblue;
+    font-size: 1rem;
+    margin: 0.2rem 0;
+    text-align: center;
+}
+
