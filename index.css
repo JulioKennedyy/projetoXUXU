@@ -119,5 +119,31 @@ body {
 
 .musica01, .musica02, .musica03 {
     margin: 0 2rem;
+    border: 0.2rem solid rgb(0, 0, 0);
+    width: 11rem;
+    height: 11rem;
 }
 
+.musica01, .musica02, .musica03 img {
+    width: 11rem;
+    height: 11rem;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    gap: 20rem; /* Espaço entre os itens */
+    margin-bottom: 2rem; /* Espaço entre as linhas */
+
+.musica04 {
+    margin: 0 2rem;
+    border: 0.2rem solid rgb(0, 0, 0);
+    width: 11rem;
+    height: 11rem;
+    margin-top: 0.5rem;
+}
+    
+.musica04, .musica05, .musica06 img {
+    width: 11rem;
+    height: 11rem;
+}
