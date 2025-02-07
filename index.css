@@ -138,3 +138,31 @@ body {
     width: 10rem;
     height: 11rem;
 }
+
+.heart {
+    position: absolute;
+    top: 80%;
+    left: -100px; 
+    width: 4rem;
+    height: 4rem;
+    animation: moveHeart 6s linear infinite;
+    z-index: 9999; 
+    pointer-events: neno;
+}
+
+@keyframes moveHeart {
+    0% {
+        left: -100px;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        left: 100vw;
+        opacity: 0;
+    }
+}
