@@ -166,3 +166,19 @@ body {
         opacity: 0;
     }
 }
+
+.porque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.porque h1 {
+    color: aliceblue;
+}
+
+.porque p{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
