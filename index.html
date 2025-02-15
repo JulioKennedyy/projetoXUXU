@@ -84,20 +84,17 @@
         <p>O brilho, a cor, a forma. TUDO em seus olhos me hipnotizam e me seduz</p>
 
     </div>
-    <div class="container">
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const container = document.querySelector(".container");
-    
-                for (let i = 0; i < 20; i++) { 
-                    let heart = document.createElement("span");
-                    heart.classList.add("heart");
-                    heart.style.setProperty("--i", Math.random() * 50 + 10); 
-                    heart.style.left = `${Math.random() * 100}%`;
-                    container.appendChild(heart);
-                }
-            });
-        </script>
-    </div>
-</div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector(".container");
+
+            for (let i = 0; i < 20; i++) { 
+                let heart = document.createElement("span");
+                heart.classList.add("heart");
+                heart.style.setProperty("--i", Math.random() * 50 + 10); 
+                heart.style.left = `${Math.random() * 100}%`;
+                container.appendChild(heart);
+            }
+        });
+    </script>
 </body>
