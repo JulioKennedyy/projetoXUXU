@@ -139,33 +139,37 @@ body {
     height: 11rem;
 }
 
-.heart {
-    position: absolute;
-    top: 80%;
-    left: -100px; 
-    width: 4rem;
-    height: 4rem;
-    animation: moveHeart 6s linear infinite;
-    z-index: 9999; 
-    pointer-events: neno;
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
 }
 
-@keyframes moveHeart {
+.heart {
+    width: 40px;
+    height: 40px;
+    background-image: url('heart.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -50px;
+    animation: anima linear infinite;
+    animation-duration: calc(3s + var(--i) * 0.1s);
+}
+
+@keyframes anima {
     0% {
-        left: -100px;
-        opacity: 0;
-    }
-    10% {
-        opacity: 1;
-    }
-    90% {
+        transform: translateY(100vh) scale(0.5);
         opacity: 1;
     }
     100% {
-        left: 100vw;
+        transform: translateY(-10vh) scale(1.2);
         opacity: 0;
     }
 }
+
 
 .porque {
     display: flex;
