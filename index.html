@@ -14,6 +14,7 @@
     <title>Xuxu</title>
 </head>
 <body>
+    <div class="hearts-container"></div> 
     <div class="container">
     <div class="fundo1">
         <img src="For_my_love.jpg" alt="feliz aniversario amor">
@@ -82,18 +83,18 @@
     <div class="porque">
         <h1>Seus olhos:</h1>
         <p>O brilho, a cor, a forma. TUDO em seus olhos me hipnotizam e me seduz</p>
-
+    </div>
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const container = document.querySelector(".container");
+            const heartsContainer = document.querySelector(".hearts-container");
 
             for (let i = 0; i < 20; i++) { 
                 let heart = document.createElement("span");
                 heart.classList.add("heart");
                 heart.style.setProperty("--i", Math.random() * 50 + 10); 
                 heart.style.left = `${Math.random() * 100}%`;
-                container.appendChild(heart);
+                heartsContainer.appendChild(heart);
             }
         });
     </script>
