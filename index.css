@@ -201,10 +201,20 @@ body {
     text-align: center;
 }
 
-.porque img {
+.ultima {
     display: flex;
     rotate: 270deg;
     justify-content: center;
     width: 15rem;
     height: 25rem;
+}
+
+.fotos img {
+    width: 15rem;
+    height: 25rem;
+    border-radius: 50%;
+}
+
+.foto1 {
+    
 }
