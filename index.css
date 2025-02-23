@@ -210,11 +210,18 @@ body {
 }
 
 .fotos img {
+    display: inline-block;
     width: 15rem;
     height: 25rem;
-    border-radius: 50%;
+    
 }
 
 .foto1 {
-    
+    rotate: 270deg;
+    margin-right: 7rem;
+}
+
+.foto2 {
+    rotate: 270deg;
+    margin-left: 7rem;
 }
