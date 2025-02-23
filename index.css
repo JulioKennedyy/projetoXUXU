@@ -200,3 +200,11 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.porque img {
+    display: flex;
+    rotate: 270deg;
+    justify-content: center;
+    width: 15rem;
+    height: 25rem;
+}
